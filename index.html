@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="app.css"/>
+    
+</head>
+<body>
+    
+    <div id="platform">
+        <!-- <div id="gameinfobg"> -->
+            <h1 id="gameinfo" onclick="replay()"></h1>
+    <!-- </div> -->
+    <table id="tableblur"> 
+        <tr><td id="i11" class="square-box"></td>
+            <td id="i12" class="square-box"></td>
+            <td id="i13" class="square-box"></td>
+        </tr>
+        <tr><td id="i21" class="square-box"></td>
+            <td id="i22" class="square-box"></td>
+            <td id="i23" class="square-box"></td>
+        </tr>
+        <tr><td id="i31" class="square-box"></td>
+            <td id="i32" class="square-box"></td>
+            <td id="i33" class="square-box"></td>
+        </tr>
+    </table>
+    </div>
+    <div id="playerform">
+        
+        <input  type="text"placeholder="player 1" id="input1"/>
+        <input  type="text"placeholder="player 2" id="input2"/>
+        <button onclick="startgame()" class="rotate">Submit</button>
+    
+    </div>
+<div id="player1-info">
+  <div class="player-name">
+    Player 1: <b id="player1-name"></b>
+  </div>  
+    
+</div>
+<div id="player2-info">
+    <div class="player-name">
+        Player 2: <b id="player2-name"></b>
+      </div>  
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
+    
